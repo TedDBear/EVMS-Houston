@@ -493,7 +493,7 @@ export default function StudentDashboard() {
                 <p className="text-sm text-zinc-600">📍 {e.venue || "TBD"}</p>
                 <p className="text-xs text-zinc-500">
                   📅 {e.date ? new Date(e.date).toLocaleDateString() : "TBD"} • 🎓{" "}
-                  {e.college || "VCCS"}
+                  {e.college || "TSTC"}
                 </p>
                 <div className="pt-2 flex gap-2">
                   <button

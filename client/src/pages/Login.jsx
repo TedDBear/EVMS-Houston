@@ -22,11 +22,11 @@ export default function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Demo only — match sample creds
-    if (email === "admin@vccs.edu" && password === "admin123") {
+    if (email === "admin@TSTC.edu" && password === "admin123") {
       handleLogin("admin");
-    } else if (email === "manager@vccs.edu" && password === "manager123") {
+    } else if (email === "manager@TSTC.edu" && password === "manager123") {
       handleLogin("eventManager");
-    } else if (email === "student@vccs.edu" && password === "student123") {
+    } else if (email === "student@TSTC.edu" && password === "student123") {
       handleLogin("public");
     } else {
       alert("Invalid credentials. Please try again.");
@@ -65,7 +65,7 @@ export default function Login() {
 
         {/* <div className="text-center">
           <h1 className="text-2xl font-bold text-gray-800">
-            VCCS Event & Venue Management System
+            TSTC Event & Venue Management System
           </h1> */}
           {/* <p className="text-sm text-gray-500 mt-1">
             Virginia Community College System — 2025
@@ -84,7 +84,7 @@ export default function Login() {
               className="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring focus:border-blue-500"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="you@vccs.edu"
+              placeholder="you@TSTC.edu"
             />
           </div>
           <div>
@@ -119,17 +119,17 @@ export default function Login() {
           <div className="grid grid-cols-1 gap-3 text-sm">
             <div className="bg-white border border-gray-300 rounded p-3">
               <strong>Admin User</strong><br />
-              Email: admin@vccs.edu<br />
+              Email: admin@TSTC.edu<br />
               Password: admin123
             </div>
             <div className="bg-white border border-gray-300 rounded p-3">
               <strong>Event Manager</strong><br />
-              Email: manager@vccs.edu<br />
+              Email: manager@TSTC.edu<br />
               Password: manager123
             </div>
             <div className="bg-white border border-gray-300 rounded p-3">
               <strong>Student / Public User</strong><br />
-              Email: student@vccs.edu<br />
+              Email: student@TSTC.edu<br />
               Password: student123
             </div>
           </div>
