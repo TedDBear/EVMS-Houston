@@ -8,9 +8,9 @@ async function run() {
 
   await query(
     `INSERT INTO users (email, password, role) VALUES
-      ('admin@vccs.edu', $1, 'admin'),
-      ('manager@vccs.edu', $1, 'eventManager'),
-      ('viewer@vccs.edu', $1, 'public')
+      ('admin@TSTC.edu', $1, 'admin'),
+      ('manager@TSTC.edu', $1, 'eventManager'),
+      ('viewer@TSTC.edu', $1, 'public')
      ON CONFLICT (email) DO NOTHING`,
     [hash]
   );
