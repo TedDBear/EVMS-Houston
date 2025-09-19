@@ -74,27 +74,26 @@ export default function Sidebar() {
   </span>
 </div> */}
 {/* Sidebar brand / logo */}
-<div className="flex items-center gap-3 px-3 py-5 select-none">
-  {/* Monogram tile */}
-  <div className="grid h-12 w-12 place-items-center rounded-2xl 
-                  bg-gradient-to-br from-indigo-600 to-blue-600 
-                  text-white font-black text-lg shadow-md ring-1 ring-white/15">
-    EV
-  </div>
-
-  {/* Wordmark */}
-  <div className="leading-tight">
-    <div className="text-white font-extrabold text-[17px] tracking-tight">
-      Event & Venue
-    </div>
-    <div className="text-blue-100 text-[13px] font-semibold -mt-0.5">
-      Management
-      <span className="ml-2 align-middle rounded-full px-2 py-0.5 
-                       text-[11px] font-bold text-blue-50 
-                       bg-white/10 ring-1 ring-white/20">
-        Prototype
-      </span>
-    </div>
+{/* Rexus Logo */}
+            <div className="flex items-center justify-center">
+              <img src="./rexus_logo.png" width = "125" alt='Rexus Logo' ></img>
+            </div>
+<div className="flex items-center gap-3 px-3 pt-3 pb-6 select-none">
+  
+          <div className="flex items-center gap-2 justify-center select-none pl-4">
+            {/* Wordmark */}
+            <div className="leading-tight text-left justify-center">
+              <div className="text-white-800 font-extrabold text-[20px] tracking-tight">
+                Campus Connect
+              </div>
+              <div className="text-gray-600 text-center text-[14px] font-semibold -mt-0.5 pt-2">
+                <span className="ml-2 align-middle rounded-full px-2.5 py-0.5 
+                                text-[12px] font-bold text-blue-700 
+                                bg-blue-50 ring-1 ring-blue-200 ">
+                  Prototype
+                </span>
+              </div>
+            </div>
   </div>
 </div>
 

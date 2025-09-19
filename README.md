@@ -1,6 +1,6 @@
-# EVMS – Virginia (Event & Venue Management System)
+# EVMS – Houston (Event & Venue Management System)
 
-A hybrid demo platform for scheduling, approvals, and campus/community events across Virginia institutions.  
+A hybrid demo platform for scheduling, approvals, and campus/community events across Houston institutions.  
 **Core flows are backed by Postgres**; advanced modules are **mocked** to showcase the full experience requested in the RFP.
 
 ---
@@ -75,6 +75,7 @@ NODE_ENV=development
 DATABASE_URL=postgres://postgres:your_password@localhost:5432/evms_dbj
 ALLOWED_ORIGINS=http://localhost:3000
 JWT_SECRET=change_me_for_prod
+
 2) Frontend
 bash
 Copy
